@@ -1,9 +1,9 @@
 import { FaEnvelope } from "react-icons/fa6";
-
+import footerlogo from './../../assets/Copyright Info.svg'
 function Footer() {
   return (
-    <footer className="w-full h-[400px] bg-gray-300 flex items-center">
-      <section className="w-[80%] m-auto flex justify-between h-full items-center">
+    <footer className="w-full h-[400px] bg-gray-300 flex ">
+      <section className="w-[80%] m-auto flex justify-between h-full items-center relative">
         <div className="w-[280px]">
           <h1 className="font-bold mb-5">About</h1>
           <p className="mb-2">
