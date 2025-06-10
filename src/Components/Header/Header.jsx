@@ -24,12 +24,12 @@ function Header() {
         </ul>
       </nav>
       <div className="flex items-center mr-3">
-        <span className="flex items-center flex-row-reverse bg-gray-300 pl-1.5 pr-1.5 rounded-[4px]">
-          <label htmlFor="">
+        <span className="w-30 flex items-center flex-row-reverse pl-1.5 pr-1.5 bg-gray-300 rounded-[4px]">
+          <label className="pr-1" htmlFor="">
             <FaSistrix />
           </label>
           <input
-            className="w-30 h-7 bg-gray-300 items-center"
+            className="w-35 h-7 pl-1.5 bg-gray-300 items-center border-gray-300 rounded-[4px] outline-none "
             placeholder="search"
             type="text"
           />
